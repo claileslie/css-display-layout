@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, verdana, sans-serif;
+}
+
+header {
+  display: block;
+  background-color: #1B2631;
+  font-size: 22px;
+  font-weight:575;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background-color: lightgrey;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+h5 {
+  background-color: #56F2C0;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+#six {
+  border-bottom: 2px solid yellow;
+}
+
+.image {
+  display: inline-block;
+  margin:auto;
+}
