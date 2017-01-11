@@ -10,6 +10,7 @@ header {
   color: white;
   text-align: center;
   padding: 10px;
+  margin-bottom: 2px;
 }
 
 button {
@@ -27,13 +28,34 @@ h5 {
   font-size: 20px;
   padding: 10px;
   font-weight: lighter;
+  margin: 10px 30px 10px 40px;
 }
 
 #six {
   border-bottom: 2px solid yellow;
 }
 
+li {
+  display: inline-block;
+}
+
 .image {
   display: inline-block;
-  margin:auto;
+}
+.options {
+  background-color: yellow;
+  display: block;
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 12px;
+  margin: 2px 0px;
+}
+a:link {
+  text-decoration: underline;
+  color: blue;
+}
+
+#left {
+  margin-left: 250px;
 }
