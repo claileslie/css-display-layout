@@ -1,4 +1,8 @@
-* {
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
   font-family: Arial, verdana, sans-serif;
 }
 
@@ -13,33 +17,44 @@ header {
   margin-bottom: 2px;
 }
 
-button {
-  background-color: lightgrey;
+nav ul{
   color: white;
-  padding: 5px;
   text-align: center;
-  display: inline-block;
-  margin-left: 2px;
+  display: block;
+  margin: 0px;
 }
 
-h5 {
+nav ul li {
+  background-color: lightgrey;
+  padding: 5px;
+  margin: 0px 1px 1px 1px;
+}
+h3 {
   background-color: #56F2C0;
   display: block;
   font-size: 20px;
   padding: 10px;
   font-weight: lighter;
-  margin: 10px 30px 10px 40px;
+  margin-bottom: 10px;
+  width: 87%;
+  margin-left: 39px;
 }
 
-#six {
+span {
   border-bottom: 2px solid yellow;
+  font-weight: bold;
+}
+
+div {
+  width: 700px;
+  margin: 0 auto;
 }
 
 li {
   display: inline-block;
 }
 
-.image {
+img {
   display: inline-block;
 }
 .options {
@@ -51,11 +66,18 @@ li {
   font-size: 12px;
   margin: 2px 0px;
 }
-a:link {
+.options a:link {
+  text-decoration-color: blue;
   text-decoration: underline;
-  color: blue;
 }
 
-#left {
-  margin-left: 250px;
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 10px;
+  padding:10px;
+  display: block;
 }
